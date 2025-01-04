@@ -82,3 +82,14 @@ pip install -r requirements.txt
 ## 📈 Résultats
 
 Les performances des modèles ont été évaluées selon les métriques classiques de classification (accuracy, precision, recall, F1-score). Retrouvez les détails de l'analyse dans le notebook `bc.ipynb`.
+
+
+Voici une section sur le déploiement à ajouter dans votre README.md :
+
+---
+
+## 🌐 Déploiement de l'Application Streamlit
+
+L'application Streamlit a été déployée en ligne pour permettre de tester le modèle **Random Forest** directement depuis un navigateur. Vous pouvez accéder à l'application via le lien suivant :
+
+👉 [**breast-cancer-lia.streamlit.app**](https://breast-cancer-lia.streamlit.app/)
