@@ -1,6 +1,8 @@
 
 # Projet Machine Learning - Classification du Cancer du Sein
 
+![streamlit](streamlitscreen.png)
+
 Ce projet a été réalisé dans le cadre de mon cursus en **B3 DEVIA DS** à l'**EPSI de Nantes**. L'objectif est de construire des modèles de machine learning permettant de classifier des données relatives au cancer du sein issues de la base **SEER Breast Cancer Data**.
 
 ## 🧪 Objectif du projet
