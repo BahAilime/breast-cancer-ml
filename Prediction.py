@@ -1,8 +1,19 @@
 import joblib
 import streamlit as st
+# from st_pages import add_page_title, get_nav_from_toml
 
-st.set_page_config(page_title="Prédiction de survie au cancer", page_icon="🏥", layout="wide")
+st.set_page_config(
+    page_title="Prédiction de survie au cancer",
+    page_icon="🏥",
+    layout="wide",
+    initial_sidebar_state="collapsed")
 st.title("🏥 Prédiction de survie au cancer du sein")
+
+# st.navigation(get_nav_from_toml(".streamlit/pages.toml"))
+
+@st.cache_resource
+def load_model():
+    return joblib.load('models/model_rdf.joblib')
 
 def make_prediction():
     all_values = [
